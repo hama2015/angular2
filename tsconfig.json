@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,//把 ts 文件编译成 js 文件的时候，同时生成对应的 map 文件
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,//编译 js 的时候，删除掉注释
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": false
+  }
+}
